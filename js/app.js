@@ -114,3 +114,15 @@ document.addEventListener('keyup', function(e) {
 
     player.handleInput(allowedKeys[e.keyCode]);
 });
+
+/*Resets game when clicked on the reset arrow*/
+document.querySelector('.modal__cancel').addEventListener('click', () => {
+        toggleModal();
+});
+
+document.querySelector('.modal__replay').addEventListener('click', replayGame);
+
+function replayGame() {
+    resetGame();
+    toggleModal();
+}
