@@ -74,13 +74,12 @@ class Hero {
         // If the player and enemy touch eachother, player loses, game resets
         for(let enemy of allEnemies) {
 
-            if (this.y === enemy.y && (enemy.x + enemy.step/2 > this.x
-        && enemy.x < this.x + this.step/2)) {
+            if (this.y === enemy.y && (enemy.x + enemy.step/2 > this.x && enemy.x < this.x + this.step/2)) {
                 this.reset();
             }
         // If player reaches the river without touching the enemy, it wins
         }
-        if(this.y === 55){
+        if(this.y === -28){
             this.victory = true;
             
         }

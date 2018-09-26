@@ -12,4 +12,4 @@ This is a simple game inspired from the classic arcade game called 'Froggs'. The
 
 ## How to play
 
-you can play the game from this link https://github.com/mercandenizci/Arcade-Game
+You can play the game by downloading or cloneing the repository at https://github.com/mercandenizci/Arcade-Gameand and opening the index.html in browser.
