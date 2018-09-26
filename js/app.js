@@ -1,7 +1,7 @@
 // Enemies our player must avoid
 var Enemy = function(x,y,speed) {
     this.sprite = 'images/enemy-bug.png';
-    this.x = x;
+    this.x = x;// Variables applied to each of instances (movement)
     this.y = y + 55;
     this.speed = speed;
     this.step = 101;

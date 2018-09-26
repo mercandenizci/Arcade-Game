@@ -1,6 +1,15 @@
-frontend-nanodegree-arcade-game
-===============================
 
-Students should use this [rubric](https://review.udacity.com/#!/projects/2696458597/rubric) for self-checking their submission. Make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon. Also be sure that the **readme.md** file is updated with your instructions on both how to 1. Run and 2. Play your arcade game.
+# Arcade Game Project
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+## Project Overview
+
+This project is a requirement for the Udacity Front-End Web Development Program. It is one of the required projects for the 'Exploring JS- Objects, Tools and Testing' Chapter 3.
+
+## Instructions
+
+This is a simple game inspired from the classic arcade game called 'Froggs'. The goal of the game is to reach the river without being touched by the enemy, which are ladybugs in this case. The player can move up, down, right and left by using the arrow keys one the keyboard. If the player touches the enemy, the game is automatically reset. If the player reacheds the river, he/she wins and they can replay if they want to.
+
+
+## How to play
+
+you can play the game from this link https://github.com/mercandenizci/Arcade-Game
